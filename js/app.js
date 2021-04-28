@@ -6,6 +6,7 @@ let userName = prompt('Could you enter your name please');
 alert(' Hello Mr/Ms ' + userName);
 
 // eslint-disable-next-line no-unused-vars
+function question1() {
 let userInput1 = prompt('Do you know my name ?');
 switch (userInput1.toLowerCase()) {
     case 'yes':
@@ -20,8 +21,11 @@ switch (userInput1.toLowerCase()) {
         alert('my name is mahmoud nice to meet you');
         break;
 }
+}
+question1();
 
 // eslint-disable-next-line no-unused-vars
+function question2() {
 let userInput2 = prompt('do i study programming ?');
 switch (userInput2.toLowerCase()) {
     case 'yes':
@@ -36,9 +40,12 @@ switch (userInput2.toLowerCase()) {
         alert('you are wrong i study programming');
         break;
 }
+}
+question2();
 
 
 // eslint-disable-next-line no-unused-vars
+function question3() {
 let userInput3 = prompt('is my fav color is red ?');
 switch (userInput3.toLowerCase()) {
     case 'yes':
@@ -53,9 +60,12 @@ switch (userInput3.toLowerCase()) {
         alert('you are wrong');
         break;
 }
+}
+question3();
 
 
 // eslint-disable-next-line no-unused-vars
+function question4() {
 let userInput4 = prompt('Do i live in Amman  ?');
 switch (userInput4.toLowerCase()) {
     case 'yes':
@@ -70,8 +80,11 @@ switch (userInput4.toLowerCase()) {
         alert('you are wrong i live in amman');
         break;
 }
+}
+question4();
 
 // eslint-disable-next-line no-unused-vars
+function question5() {
 let userInput5 = prompt('Am i Civil Engineer ?');
 switch (userInput5.toLowerCase()) {
     case 'yes':
@@ -86,9 +99,11 @@ switch (userInput5.toLowerCase()) {
         alert('you are wrong iam civil engineer');
         break;
 }
+}
+question5();
 
  alert('For this question you only have 4 attempts only')
-
+ function question6() {
 let userInput6;
 for(let i = 1; i <= 4; i++){
     userInput6 = Number(prompt('How old Am I ?'));
@@ -106,9 +121,13 @@ for(let i = 1; i <= 4; i++){
     }
 }
 alert('The Correct answar is 26');
+ }
+ question6();
+
+
 
 alert('For this question you only have 6 attempts only');
-
+function question7() {
 let games = ['dota2','wourld of warcraft','hearthstone','warcraft 3'];
 let userInput7;
 for(let i = 1 ; i <=6 ;i++){
@@ -123,6 +142,8 @@ for(let i = 1 ; i <=6 ;i++){
 }
 }
 alert(games[0]+'/ '+ games[1] +'/ '+ games [2] +'/ '+ games[3]);
+}
+question7();
 
 alert('your score is ' + score + ' out of 7')
 
